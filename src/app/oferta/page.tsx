@@ -127,8 +127,8 @@ export default function OfertaPage() {
         </p>
         <p className="mt-1 text-lg leading-relaxed text-neutral-700">
           Se você vive repetindo experimento para “dar o mesmo resultado”, este ebook vai te entregar um sistema prático
-          para blindar seus dados: SOP profissional, Go/No-Go, validação inter-dia/inter-operador/inter-lote, DoE
-          e governança de dados — para você parar de depender de “dia bom” e começar a gerar evidência reprodutível,
+          para blindar seus dados: SOP profissional, Go/No-Go, validação inter-dia inter-operador inter-lote, DoE
+          e governança de dados para você parar de depender de “dia bom” e começar a gerar evidência reprodutível,
           rastreável e defensável.
         </p>
       </div>
