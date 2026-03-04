@@ -144,7 +144,7 @@ export default function OfertaPage() {
           Para quem é este guia
         </p>
         <p className="mt-1 text-lg leading-relaxed text-neutral-700">
-          Este ebook é para biotecnólogos e pesquisadores que estão cansados de perder semanas (ou meses)
+          Este Mapa é para biotecnólogos e pesquisadores que estão cansados de perder semanas (ou meses)
           porque o experimento não repete, o controle falha, o lote muda, o operador executa diferente
           e a análise “muda tudo”.
         </p>
@@ -355,7 +355,7 @@ export default function OfertaPage() {
           </div>
 
           <p className="mt-2 text-left text-lg leading-relaxed text-neutral-700">
-            “Eu precisava de um guia que organizasse o assunto de forma clara, reduzi muito os custos com está aquisição. Achei a
+            “Eu precisava de um mapa que organizasse o assunto de forma clara, reduzi muito os custos com está aquisição. Achei a
             linguagem acessível e a estrutura muito bem feita.”
           </p>
         </div>
