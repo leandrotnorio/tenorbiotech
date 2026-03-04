@@ -244,9 +244,6 @@ export default function OfertaPage() {
       <h3 className="text-3xl font-bold text-blue-900 sm:text-lg">
         Avaliações de leitores
       </h3>
-      <p className="mt-1 text-lg text-neutral-600">
-        Feedbacks sobre clareza, organização e linguagem responsável.
-      </p>
     </div>
 
     <div className="flex items-center justify-center gap-3">
