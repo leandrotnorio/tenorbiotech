@@ -29,6 +29,13 @@ export default function RootLayout({
   return (
     <html lang="pt-BR">
       <head>
+        <script
+        src="https://cdn.utmify.com.br/scripts/utms/latest.js"
+        data-utmify-prevent-xcod-sck
+        data-utmify-prevent-subids
+        async
+        defer
+      ></script>
         <meta name="facebook-domain-verification" content="wzfgknz1wcirewxciq6g7kzmsien4m" />
         {PIXEL_ID && (
           <>
