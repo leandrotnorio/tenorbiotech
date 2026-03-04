@@ -62,7 +62,7 @@ export default function OfertaPage() {
             </div>
       
             <h2 className="mt-6 text-center text-3xl leading-[1.15] font-semibold text-white sm:text-center sm:text-[1.75rem] md:text-3xl">
-              Reprodutibilidade não é sorte. É design. Tenha <span className="text-green-400">acesso ao guia agora</span> e saia da zona de excesso de informação
+              Reprodutibilidade não é sorte, É design. Tenha <span className="text-green-400">acesso ao mapa agora</span> e pare de <span className="text-red-500">perder meses com experimentos</span>
             </h2>
       
             {/*<p className="mt-4 text-left text-lg leading-relaxed text-white sm:text-center sm:text-base">
@@ -82,8 +82,8 @@ export default function OfertaPage() {
       
                 <div className="min-w-0 w-full">
                   <div className="flex flex-col gap-2 sm:flex-row sm:flex-wrap items-center sm:items-center">
-                    <h3 className="mt-2 text-2xl text-center font-semibold text-neutral-900 sm:text-lg leading-tight">
-                      Guia Científico Completo <span className="hidden sm:inline">(Produto Principal)</span>
+                    <h3 className="mt-2 text-2xl text-center font-semibold text-blue-900 sm:text-lg leading-tight">
+                      Mapa da reprodutibilidade Completo <span className="hidden sm:inline">(Produto Principal)</span>
                     </h3>
       
                     <span className="text-center w-[150px] rounded border border-green-400 bg-green-50 py-1 text-[13px] font-medium text-green-600 sm:text-xs">
@@ -92,13 +92,11 @@ export default function OfertaPage() {
                   </div>
       
                   <p className="mt-8 text-xl text-center leading-relaxed text-neutral-700">
-                    Material educacional para compreender fundamentos, como garantir reprodutibilidade, qualidade e resultados. interpretar estudos com mais critério
-                    e reduzir confusão causada por informações fragmentadas.
-                  </p>
+                    Material educacional para compreender fundamentos, como garantir reprodutibilidade, qualidade e resultados. Organização do conteúdo para entender o que é SOP, Go/No-Go, validação inter-dia inter-operador inter-lote, DoE e governança de dados. </p>
       
                   <div className="mt-4 grid grid-cols-1 gap-3 sm:grid-cols-2">
 
-  <div className="group  rounded-xl border border-neutral-300 bg-neutral-50 p-3.5 shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-lg sm:p-4">
+  <div className="group  rounded-xl border border-neutral-300 bg-neutral-50 p-2 m-6 shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-lg sm:p-4">
     <div className="flex flex-col items-center justify-center text-center gap-3">
       <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-blue-100 text-blue-900 transition duration-300 group-hover:scale-110 group-hover:rotate-3">
         <BookOpen className="h-6 w-6" strokeWidth={2.2} />
@@ -106,16 +104,16 @@ export default function OfertaPage() {
 
       <div>
         <p className="text-2xl font-bold text-blue-900 transition duration-300 group-hover:text-blue-800">
-          Ao adquirir este guia
+          Ao adquirir este Mapa
         </p>
         <p className="mt-1 text-lg leading-relaxed text-neutral-700">
-          Você tem acesso ao Guia digital com conteúdo estruturado, objetivo baseado em aplicações na prática e com resultados reais com acesso vitalício.
+          Você tem acesso ao Mapa com conteúdo estruturado, objetivo baseado em aplicações na prática e com resultados reais com acesso vitalício.
         </p>
       </div>
     </div>
   </div>
 
-  <div className="group rounded-xl border border-neutral-300 bg-neutral-50 p-3.5 shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-lg sm:p-4">
+  <div className="group rounded-xl border border-neutral-300 bg-neutral-50 p-2 m-6 shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-lg sm:p-4">
     <div className="flex flex-col items-center justify-center text-center gap-3">
       <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-blue-100 text-blue-900 transition duration-300 group-hover:scale-110 group-hover:rotate-3">
         <ShieldCheck className="h-6 w-6" strokeWidth={2.2} />
@@ -123,10 +121,10 @@ export default function OfertaPage() {
 
       <div>
         <p className="text-2xl font-bold text-blue-900 transition duration-300 group-hover:text-blue-800">
-          Porque adquirir este guia
+          Porque adquirir este Mapa
         </p>
         <p className="mt-1 text-lg leading-relaxed text-neutral-700">
-          Se você vive repetindo experimento para “dar o mesmo resultado”, este ebook vai te entregar um sistema prático
+          Se você vive repetindo experimento para “dar o mesmo resultado”, este Mapa vai te entregar um sistema prático
           para blindar seus dados: SOP profissional, Go/No-Go, validação inter-dia inter-operador inter-lote, DoE
           e governança de dados para você parar de depender de “dia bom” e começar a gerar evidência reprodutível,
           rastreável e defensável.
@@ -135,7 +133,7 @@ export default function OfertaPage() {
     </div>
   </div>
 
-  <div className="group rounded-xl border border-neutral-300 bg-neutral-50 p-3.5 shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-lg lg:hidden sm:p-4">
+  <div className="group rounded-xl border border-neutral-300 bg-neutral-50 p-2 m-6 shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-lg lg:hidden sm:p-4">
     <div className="flex flex-col items-center justify-center text-center gap-3">
       <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-blue-100 text-blue-900 transition duration-300 group-hover:scale-110 group-hover:rotate-3">
         <FlaskConical className="h-6 w-6" strokeWidth={2.2} />
@@ -158,8 +156,8 @@ export default function OfertaPage() {
                   {/* ancoragem de valor */}
                   <div className="mt-5 rounded-2xl border border-neutral-400 bg-gradient-to-r from-[#0B2D5C]/5 to-blue-50 p-4">
                     <p className="text-xl leading-relaxed text-neutral-700">
-                      <span className="font-semibold text-neutral-900">Condição atual:</span>{""}
-                      em vez de pagar <span className="line-through">R$ 137,00</span>, você garante acesso hoje por:
+                      <span className="font-semibold text-neutral-900">Condição atual: </span>
+                        em vez de pagar <span className="line-through">R$ 147,00</span>, você garante acesso hoje por:
                     </p>
       
                     <div className="mt-3 flex flex-col items-center gap-1 sm:flex-row sm:flex-wrap sm:items-end sm:gap-3">
@@ -261,7 +259,7 @@ export default function OfertaPage() {
 
   <div className="mt-5 grid grid-cols-1 gap-4 md:grid-cols-3">
     {/* Review 1 */}
-    <article className="rounded-2xl border border-neutral-400 bg-white p-4">
+    <article className="rounded-2xl border border-neutral-400 bg-white p-2 m-4">
       <div className="flex items-start gap-3">
         <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-[#0B2D5C] text-lg font-semibold text-white">
           M
@@ -295,7 +293,7 @@ export default function OfertaPage() {
     </article>
 
     {/* Review 2 */}
-    <article className="rounded-2xl border border-neutral-400 bg-white p-4">
+    <article className="rounded-2xl border border-neutral-400 bg-white p-2 m-4">
       <div className="flex items-start gap-3">
         <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-[#0B2D5C] text-lg font-semibold text-white">
           R
@@ -331,7 +329,7 @@ export default function OfertaPage() {
     </article>
 
     {/* Review 3 */}
-    <article className="rounded-2xl border border-neutral-400 bg-white p-4">
+    <article className="rounded-2xl border border-neutral-400 bg-white p-2 m-4">
       <div className="flex items-start gap-3">
         <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-[#0B2D5C] text-lg font-semibold text-white">
           C
@@ -382,8 +380,8 @@ export default function OfertaPage() {
       
                 <p className="mt-2 text-lg leading-relaxed text-neutral-700">
                   Acesso imediato ao conteúdo educacional por apenas <strong>R$ 47,00</strong>.
-                  <br/>Adquira o guia e tenha em mãos um conteúdo criado para quem busca clareza,
-                   organização e entendimento real sobre a biotecnologia.
+                  <br/>Adquira o Mapa e tenha em mãos um conteúdo criado para quem busca clareza,
+                   organização e entendimento real sobre a reprodutibilidade.
                 </p>
       
                 {/* microcopy de confiança */}
