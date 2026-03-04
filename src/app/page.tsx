@@ -383,22 +383,22 @@ export default function OfertaPage() {
       
                 {/* microcopy de confiança */}
                 <div className="mt-4 grid grid-cols-1 gap-2 sm:grid-cols-2">
-                  <div className="inline-flex items-center gap-2 rounded-xl border border-green-200 bg-green-50 px-3 py-2 text-xs font-medium text-neutral-700">
+                  <div className="inline-flex items-center justify-center gap-2 rounded-xl border border-green-200 bg-green-50 px-3 py-2 text-xs font-medium text-neutral-700">
                     <Clock3 className="h-4 w-4 shrink-0 text-green-400" />
                     <span className="text-green-400 text-lg">Acesso digital imediato</span>
                   </div>
       
-                  <div className="inline-flex items-center gap-2 rounded-xl border border-green-200 bg-green-50 px-3 py-2 text-xs font-medium text-neutral-700">
+                  <div className="inline-flex items-center justify-center gap-2 rounded-xl border border-green-200 bg-green-50 px-3 py-2 text-xs font-medium text-neutral-700">
                     <CreditCard className="h-4 w-4 shrink-0 text-green-400" />
                     <span className="text-green-400 text-lg">Pagamento único</span>
                   </div>
       
-                  <div className="inline-flex items-center gap-2 rounded-xl border border-green-200 bg-green-50 px-3 py-2 text-xs font-medium text-neutral-700">
+                  <div className="inline-flex items-center justify-center gap-2 rounded-xl border border-green-200 bg-green-50 px-3 py-2 text-xs font-medium text-neutral-700">
                     <Lock className="h-4 w-4 shrink-0 text-green-400" />
                     <span className="text-green-400 text-lg">Checkout seguro</span>
                   </div>
       
-                  <div className="inline-flex items-center gap-2 rounded-xl border border-green-200 bg-green-50 px-3 py-2 text-xs font-medium text-neutral-700">
+                  <div className="inline-flex items-center justify-center gap-2 rounded-xl border border-green-200 bg-green-50 px-3 py-2 text-xs font-medium text-neutral-700">
                     <ShieldCheck className="h-4 w-4 shrink-0 text-green-400" />
                     <span className="text-green-400 text-lg">Garantia de 7 dias</span>
                   </div>
