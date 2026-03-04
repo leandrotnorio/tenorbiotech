@@ -3,7 +3,7 @@
 import { useEffect } from "react";
 import { track } from "@/lib/pixel";
 import Image from "next/image";
-import { ArrowRight, BadgeCheck, Microscope, BookOpen, Clock3, CreditCard, ShieldCheck, Sparkles, Video, Lock, Star, FlaskConical } from "lucide-react";
+import { BadgeCheck, Microscope, BookOpen, Clock3, CreditCard, CircleCheck, ShieldCheck, Sparkles, Video, Lock, Star, FlaskConical } from "lucide-react";
 
 const CHECKOUT_URL = "https://pay.kiwify.com.br/loqdJoT";
 
@@ -23,69 +23,47 @@ export default function OfertaPage() {
 
   return (
     <main className="mx-auto max-w-5xl px-4 py-12 sm:px-6 sm:py-16 lg:px-8">
-      <script
-        src="https://cdn.utmify.com.br/scripts/utms/latest.js"
-        data-utmify-prevent-xcod-sck
-        data-utmify-prevent-subids
-        async
-        defer
-      ></script>
-
       {/* HERO */}
       <section className="mt-0 sm:mt-20 md:mt-0 text-center">
-
-        <div className="flex flex-col items-center justify-center text-center gap-3">
-          <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-blue-100 text-blue-900 transition duration-300 group-hover:scale-110 group-hover:rotate-3">
-            <ShieldCheck className="h-6 w-6" strokeWidth={2.2} />
-          </div>
-            <p className="text-xl font-bold text-blue-900 transition duration-300 group-hover:text-blue-800">
-             Mais clareza na complexidade da produção biotecnológica
-            </p>
-        </div>
-        <div className="flex flex-col items-center justify-center text-center gap-3">
-          <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-blue-100 text-blue-900 transition duration-300 group-hover:scale-110 group-hover:rotate-3">
-            <ShieldCheck className="h-6 w-6" strokeWidth={2.2} />
-          </div>
-            <p className="text-xl font-bold text-blue-900 transition duration-300 group-hover:text-blue-800">
-             Mais domínio sobre os desafios da resistência a antibióticos
-            </p>
-        </div>
-        <div className="flex flex-col items-center justify-center text-center gap-3">
-          <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-blue-100 text-blue-900 transition duration-300 group-hover:scale-110 group-hover:rotate-3">
-            <ShieldCheck className="h-6 w-6" strokeWidth={2.2} />
-          </div>
-            <p className="text-xl font-bold text-blue-900 transition duration-300 group-hover:text-blue-800">
-             Mais visão estratégica sobre terapias gênicas e celulares
-            </p>
-        </div>
-
-        <div className="relative w-full h-[340px] md:h-[600px] rounded-3xl overflow-hidden shadow-xl">
-      <Image
-        src="/ebook-biotech.png"
-    alt="Guia Biotecnologia"
-    width={1200}
-    height={1600}
-    className="object-cover object-top h-full w-full object-center"
-    priority
-      />
-    </div>
-
-    <div className="mt-6 mb-6 inline-flex items-center rounded-full border border-blue-200 bg-blue-50 px-4 py-2 text-sm font-medium text-blue-900">
-      Material educacional • Linguagem acessível • Baseado em aplicações na prática e com resultados reais
-    </div>
-
         <div className="relative overflow-hidden rounded-2xl sm:rounded-3xl border border-neutral-200 bg-[#0B2D5C] p-4 shadow-sm sm:p-6 lg:p-10">
           {/* efeitos visuais sutis */}
-          <div className="pointer-events-none absolute -top-10 right-0 h-28 w-28 rounded-full bg-blue-100/50 blur-3xl sm:h-40 sm:w-40" />
-          <div className="pointer-events-none absolute -bottom-10 -left-6 h-24 w-24 rounded-full bg-indigo-100/40 blur-3xl sm:h-36 sm:w-36" />
-      
+            <div className="pointer-events-none absolute -top-10 right-0 h-28 w-28 rounded-full bg-blue-50/20 blur-3xl sm:h-40 sm:w-40" />
+              <div className="pointer-events-none absolute -bottom-10 -left-6 h-24 w-24 rounded-full bg-indigo-100/40 blur-3xl sm:h-36 sm:w-36" />
+                <div className="inline-flex flex-wrap items-center justify-center gap-2 rounded-full border border-blue-200 bg-blue-50 px-3 py-1.5 text-[10px] font-semibold uppercase tracking-wide text-blue-900 sm:text-xs">
+                    <Sparkles className="h-4 w-4 shrink-0" />
+                  <span>Oferta de acesso • condição especial</span>
+                </div>
+
+                <div className=" mt-12 flex items-center justify-center text-start gap-2 mb-6">
+                        <CircleCheck className="h-12 w-12 text-green-400" strokeWidth={2.2} />
+                        <p className="text-xl font-bold text-white">
+                        Mais clareza na complexidade da produção biotecnológica
+                        </p>
+                      </div>
+                <div className="flex  items-center justify-center text-start gap-2 mb-6">
+                  <CircleCheck className="h-12 w-12 text-green-400" strokeWidth={2.2} />
+                    <p className="text-xl text-white">
+                    Mais domínio sobre os desafios da resistência a antibióticos
+                    </p>
+                </div>
+                <div className="flex items-center justify-center text-start gap-2 mb-6">
+                  <CircleCheck className="h-12 w-12 text-green-400" strokeWidth={2.2} />
+                    <p className="text-xl font-bold text-white">
+                    Mais visão estratégica sobre terapias gênicas e celulares
+                    </p>
+                </div>
+                <div className="relative w-full h-[340px] md:h-[600px] rounded-3xl overflow-hidden shadow-xl">
+                  <Image
+                    src="/ebook-biotech.png"
+                    alt="Guia Biotecnologia"
+                    width={1200}
+                    height={1600}
+                    className="object-cover object-top h-full w-full object-center"
+                    priority
+                  />
+                </div>
           {/* Header */}
           <div className="relative mx-auto max-w-3xl">
-            <div className="inline-flex flex-wrap items-center justify-center gap-2 rounded-full border border-blue-200 bg-blue-50 px-3 py-1.5 text-[10px] font-semibold uppercase tracking-wide text-blue-900 sm:text-xs">
-              <Sparkles className="h-4 w-4 shrink-0" />
-              <span>Oferta de acesso • condição especial</span>
-            </div>
-      
             <h2 className="mt-6 text-center text-3xl leading-[1.15] font-semibold text-white sm:text-center sm:text-[1.75rem] md:text-3xl">
               A biotecnologia está <span className="text-green-400">avançando rápido. </span> <br/>A pergunta é: você está <span className="text-yellow-400">avançando</span> ou <span className="text-red-500">ficando para trás?</span>
             </h2>
@@ -107,11 +85,8 @@ export default function OfertaPage() {
       
                 <div className="min-w-0 w-full">
                   <div className="flex flex-col gap-2 sm:flex-row sm:flex-wrap items-center sm:items-center">
-                    <h3 className="mt-2 text-2xl text-center font-semibold text-blue-900 sm:text-lg leading-tight">
-                      O Mapa da reprodutibilidade e dos resultados <span className="hidden sm:inline">(Produto Principal)</span>
-                    </h3>
       
-                    <span className="text-center w-[150px] rounded border border-green-400 bg-green-50 py-1 text-[13px] font-medium text-green-600 sm:text-xs">
+                    <span className="text-center w-[170px] rounded border border-green-400 bg-green-50 py-1 text-[20px] font-medium text-green-600 sm:text-xs">
                       Acesso imediato
                     </span>
                   </div>
@@ -419,24 +394,24 @@ export default function OfertaPage() {
                   </button>
 
                   {/* microcopy de confiança */}
-                <div className="mt-8 grid grid-cols-1 gap-3 sm:grid-cols-2">
-                  <div className="flex items-center justify-center gap-2 rounded-xl border border-green-200 bg-green-50 px-3 py-2 text-xs font-medium">
-                    <Clock3 className="h-4 w-4 shrink-0 text-green-400" />
+                <div className="mt-8 mx-auto max-w-fit grid grid-cols-1 gap-3 sm:grid-cols-2">
+                  <div className="flex flex-col items-center justify-center w-60 gap-2 rounded-xl border border-green-200 bg-green-50 px-3 py-2 text-xs font-medium">
+                    <Clock3 className="h-8 w-8 shrink-0 text-green-400" />
                     <span className="text-green-400 text-lg">Acesso imediato</span>
                   </div>
       
-                  <div className="flex items-center justify-center gap-2 rounded-xl border border-green-200 bg-green-50 px-3 py-2 text-xs font-medium">
-                    <CreditCard className="h-4 w-4 shrink-0 text-green-400" />
+                  <div className="flex flex-col items-center justify-center w-60 gap-2 rounded-xl border border-green-200 bg-green-50 px-3 py-2 text-xs font-medium">
+                    <CreditCard className="h-8 w-8 shrink-0 text-green-400" />
                     <span className="text-green-400 text-lg">Pagamento único</span>
                   </div>
       
-                  <div className="flex items-center justify-center gap-2 rounded-xl border border-green-200 bg-green-50 px-3 py-2 text-xs font-medium">
-                    <Lock className="h-4 w-4 shrink-0 text-green-400" />
+                  <div className="flex flex-col items-center justify-center w-60 gap-2 rounded-xl border border-green-200 bg-green-50 px-3 py-2 text-xs font-medium">
+                    <Lock className="h-8 w-8 shrink-0 text-green-400" />
                     <span className="text-green-400 text-lg">Checkout seguro</span>
                   </div>
       
-                  <div className="flex items-center justify-center gap-2 rounded-xl border border-green-200 bg-green-50 px-3 py-2 text-xs font-medium">
-                    <ShieldCheck className="h-4 w-4 shrink-0 text-green-400" />
+                  <div className="flex flex-col items-center justify-center w-60 gap-2 rounded-xl border border-green-200 bg-green-50 px-3 py-2 text-xs font-medium">
+                    <ShieldCheck className="h-8 w-8 shrink-0 text-green-400" />
                     <span className="text-green-400 text-lg">Garantia de 7 dias</span>
                   </div>
                 </div>
