@@ -389,22 +389,22 @@ export default function OfertaPage() {
 
                   {/* microcopy de confiança */}
                 <div className="mt-8 mx-auto max-w-fit grid grid-cols-1 gap-3 sm:grid-cols-2">
-                  <div className="flex flex-col items-center justify-center w-60 gap-2 rounded-xl border border-green-200 bg-green-50 px-3 py-2 text-xs font-medium">
+                  <div className="flex flex-col items-center justify-center w-60 gap-2 rounded-xl px-3 py-2 text-xs font-medium">
                     <Clock3 className="h-8 w-8 shrink-0 text-green-400" />
                     <span className="text-green-400 text-lg">Acesso imediato</span>
                   </div>
       
-                  <div className="flex flex-col items-center justify-center w-60 gap-2 rounded-xl border border-green-200 bg-green-50 px-3 py-2 text-xs font-medium">
+                  <div className="flex flex-col items-center justify-center w-60 gap-2 rounded-xl px-3 py-2 text-xs font-medium">
                     <CreditCard className="h-8 w-8 shrink-0 text-green-400" />
                     <span className="text-green-400 text-lg">Pagamento único</span>
                   </div>
       
-                  <div className="flex flex-col items-center justify-center w-60 gap-2 rounded-xl border border-green-200 bg-green-50 px-3 py-2 text-xs font-medium">
+                  <div className="flex flex-col items-center justify-center w-60 gap-2 rounded-xl px-3 py-2 text-xs font-medium">
                     <Lock className="h-8 w-8 shrink-0 text-green-400" />
                     <span className="text-green-400 text-lg">Checkout seguro</span>
                   </div>
       
-                  <div className="flex flex-col items-center justify-center w-60 gap-2 rounded-xl border border-green-200 bg-green-50 px-3 py-2 text-xs font-medium">
+                  <div className="flex flex-col items-center justify-center w-60 gap-2 rounded-xl px-3 py-2 text-xs font-medium">
                     <ShieldCheck className="h-8 w-8 shrink-0 text-green-400" />
                     <span className="text-green-400 text-lg">Garantia de 7 dias</span>
                   </div>
