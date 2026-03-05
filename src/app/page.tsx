@@ -233,7 +233,7 @@ export default function OfertaPage() {
 <section className="relative mt-8 rounded-2xl border border-neutral-200 bg-neutral-50 p-4 shadow-sm sm:mt-10 sm:p-6">
   <div className="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
     <div>
-      <h3 className="text-3xl font-bold text-blue-900 sm:text-lg">
+      <h3 className="mt-8 text-3xl font-bold text-blue-900 sm:text-lg">
         Avaliações de leitores
       </h3>
     </div>
@@ -363,7 +363,7 @@ export default function OfertaPage() {
           <div className="relative mt-6 rounded-2xl border border-neutral-200 bg-white p-4 sm:mt-8 sm:p-5 md:p-6">
             <div className="grid grid-cols-1 gap-5 lg:grid-cols-[minmax(0,1fr)_320px] lg:items-center lg:gap-6">
               <div className="min-w-0">
-                <h3 className="text-3xl font-bold text-blue-900 sm:text-xl">
+                <h3 className="mt-8 text-3xl font-bold text-blue-900 sm:text-xl">
                   Benefícios de garantir o acesso hoje
                 </h3>
       
