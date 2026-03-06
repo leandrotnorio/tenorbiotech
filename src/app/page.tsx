@@ -25,7 +25,7 @@ export default function OfertaPage() {
     <main className="mx-auto max-w-5xl px-4 py-12 sm:px-6 sm:py-16 lg:px-8">
       {/* HERO */}
       <section className="mt-0 sm:mt-20 md:mt-0 text-center">
-        <div className="relative overflow-hidden rounded-2xl sm:rounded-3xl bg-white p-4 shadow-sm sm:p-6 lg:p-10">
+        <div className="relative overflow-hidden rounded-2xl sm:rounded-3xl bg-white p-2 shadow-sm sm:p-6 lg:p-10">
           {/* efeitos visuais sutis */}
             <div className="pointer-events-none absolute -top-10 right-0 h-28 w-28 rounded-full bg-blue-50/20 blur-3xl sm:h-40 sm:w-40" />
               <div className="pointer-events-none absolute -bottom-10 -left-6 h-24 w-24 rounded-full bg-indigo-100/40 blur-3xl sm:h-36 sm:w-36" />
@@ -34,19 +34,19 @@ export default function OfertaPage() {
                   <span>Oferta de acesso • condição especial</span>
                 </div>
 
-                <div className="flex items-center justify-center text-start gap-2 mb-4">
+                <div className="flex items-start text-start gap-2 mb-4">
                         <CircleCheck className="h-13 w-13 text-green-400" strokeWidth={2.2} />
                         <p className="text-xl font-bold">
                          O método para controlar variáveis críticas em experimentos
                         </p>
                       </div>
-                <div className="flex items-center justify-center text-start gap-2 mb-4">
+                <div className="flex items-start text-start gap-2 mb-4">
                   <CircleCheck className="h-12 w-12 text-green-400" strokeWidth={2.2} />
                     <p className="text-xl font-bold">
                       Como encontrar a evidência científica certa em minutos
                     </p>
                 </div>
-                <div className="flex items-center justify-center text-start gap-2 mb-4">
+                <div className="flex items-start text-start gap-2 mb-4">
                   <CircleCheck className="h-9 w-9 text-green-400" strokeWidth={2.2} />
                     <p className="text-xl font-bold">
                     Como reduzir drasticamente retrabalho
