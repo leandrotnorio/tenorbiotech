@@ -29,24 +29,24 @@ export default function OfertaPage() {
           {/* efeitos visuais sutis */}
             <div className="pointer-events-none absolute -top-10 right-0 h-28 w-28 rounded-full bg-blue-50/20 blur-3xl sm:h-40 sm:w-40" />
               <div className="pointer-events-none absolute -bottom-10 -left-6 h-24 w-24 rounded-full bg-indigo-100/40 blur-3xl sm:h-36 sm:w-36" />
-                <div className="inline-flex flex-wrap items-center justify-center gap-2 rounded-full border border-blue-200 bg-blue-50 px-3 py-1.5 text-[10px] font-semibold uppercase tracking-wide text-blue-900 sm:text-xs">
+                <div className="inline-flex flex-wrap mb-6 items-center justify-center gap-2 rounded-full border border-blue-200 bg-blue-50 px-3 py-1.5 text-[10px] font-semibold uppercase tracking-wide text-blue-900 sm:text-xs">
                     <Sparkles className="h-4 w-4 shrink-0" />
                   <span>Oferta de acesso • condição especial</span>
                 </div>
 
-                <div className=" mt-12 flex items-center justify-center text-start gap-2 mb-6">
-                        <CircleCheck className="h-12 w-12 text-green-400" strokeWidth={2.2} />
+                <div className="flex items-center justify-center text-start gap-2 mb-4">
+                        <CircleCheck className="h-13 w-13 text-green-400" strokeWidth={2.2} />
                         <p className="text-xl font-bold">
                          O método para controlar variáveis críticas em experimentos
                         </p>
                       </div>
-                <div className="flex  items-center justify-center text-start gap-2 mb-6">
+                <div className="flex items-center justify-center text-start gap-2 mb-4">
                   <CircleCheck className="h-12 w-12 text-green-400" strokeWidth={2.2} />
                     <p className="text-xl font-bold">
                       Como encontrar a evidência científica certa em minutos
                     </p>
                 </div>
-                <div className="flex items-center justify-center text-start gap-2 mb-6">
+                <div className="flex items-center justify-center text-start gap-2 mb-4">
                   <CircleCheck className="h-9 w-9 text-green-400" strokeWidth={2.2} />
                     <p className="text-xl font-bold">
                     Como reduzir drasticamente retrabalho
