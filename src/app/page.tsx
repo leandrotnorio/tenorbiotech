@@ -161,7 +161,7 @@ export default function OfertaPage() {
                           </span>
                         </button>
                     <div className="mt-3 flex flex-col items-center gap-1 sm:flex-row sm:flex-wrap sm:items-end sm:gap-3">
-                      <p className="text-lg text-neutral-600 sm:pb-1">
+                      <p className="text-xl text-neutral-600 sm:pb-1">
                        • pagamento único <br/>• sem mensalidade <br/>• acesso vitalício
                       </p>
 
@@ -234,7 +234,7 @@ export default function OfertaPage() {
     </div>
 
     <div className="flex items-center justify-center gap-3">
-      <div className="text-sm text-neutral-700">
+      <div className="text-lg text-neutral-700">
         • 1238 avaliações no Google <span className="font-semibold text-neutral-900">(4,8)</span>
         
       </div>
@@ -362,7 +362,7 @@ export default function OfertaPage() {
                   Benefícios de garantir o acesso hoje
                 </h3>
       
-                <p className="mt-6 text-lg leading-relaxed text-neutral-700">
+                <p className="mt-2 text-xl leading-relaxed text-neutral-700">
                   <br/>Adquira o Método e tenha em mãos um conteúdo criado para quem busca clareza,
                    organização e entendimento real sobre como garantir a reprodutibilidade, qualidade e resultado na bancada e na análise.
                 </p>
@@ -386,23 +386,23 @@ export default function OfertaPage() {
                   {/* microcopy de confiança */}
                 <div className="mt-8 mx-auto max-w-fit grid grid-cols-1 gap-3 sm:grid-cols-2">
                   <div className="flex flex-col items-center justify-center w-60 gap-2 rounded-xl px-3 py-2 text-xs font-medium">
-                    <Clock3 className="h-8 w-8 shrink-0 text-green-400" />
-                    <span className="text-green-400 text-lg">Acesso imediato</span>
+                    <Clock3 className="h-10 w-10 shrink-0 text-green-400" />
+                    <span className="text-green-400 text-xl">Acesso imediato</span>
                   </div>
       
                   <div className="flex flex-col items-center justify-center w-60 gap-2 rounded-xl px-3 py-2 text-xs font-medium">
-                    <CreditCard className="h-8 w-8 shrink-0 text-green-400" />
-                    <span className="text-green-400 text-lg">Pagamento único</span>
+                    <CreditCard className="h-10 w-10 shrink-0 text-green-400" />
+                    <span className="text-green-400 text-xl">Pagamento único</span>
                   </div>
       
                   <div className="flex flex-col items-center justify-center w-60 gap-2 rounded-xl px-3 py-2 text-xs font-medium">
-                    <Lock className="h-8 w-8 shrink-0 text-green-400" />
-                    <span className="text-green-400 text-lg">Checkout seguro</span>
+                    <Lock className="h-10 w-10 shrink-0 text-green-400" />
+                    <span className="text-green-400 text-xl">Checkout seguro</span>
                   </div>
       
                   <div className="flex flex-col items-center justify-center w-60 gap-2 rounded-xl px-3 py-2 text-xs font-medium">
-                    <ShieldCheck className="h-8 w-8 shrink-0 text-green-400" />
-                    <span className="text-green-400 text-lg">Garantia de 7 dias</span>
+                    <ShieldCheck className="h-10 w-10 shrink-0 text-green-400" />
+                    <span className="text-green-400 text-xl">Garantia de 7 dias</span>
                   </div>
                 </div>
               </div>
