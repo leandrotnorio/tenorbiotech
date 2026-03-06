@@ -100,7 +100,7 @@ export default function OfertaPage() {
 
       <div>
         <p className="text-2xl font-bold text-blue-900 transition duration-300 group-hover:text-blue-800">
-          Ao adquirir este Mapa
+          Ao adquirir este Método
         </p>
         <p className="mt-1 text-lg leading-relaxed text-neutral-700">
           Acesso a um método prático para controlar variáveis experimentais, encontrar evidência científica rapidamente, reduzir retrabalho em laboratório e transformar experimentos instáveis em dados confiáveis.
@@ -117,7 +117,7 @@ export default function OfertaPage() {
 
       <div>
         <p className="text-2xl font-bold text-blue-900 transition duration-300 group-hover:text-blue-800">
-          Porque adquirir este Mapa
+          Porque adquirir este Método
         </p>
         <p className="mt-1 text-lg leading-relaxed text-neutral-700">
           Se seus resultados mudam toda vez e sua pesquisa vive em tentativa e erro, este método mostra como recuperar controle experimental e produzir dados confiáveis de verdade.
@@ -134,7 +134,7 @@ export default function OfertaPage() {
 
       <div>
         <p className="text-2xl font-bold text-blue-900 transition duration-300 group-hover:text-blue-800">
-          Para quem é este guia
+          Para quem é este Método
         </p>
         <p className="mt-1 text-lg leading-relaxed text-neutral-700">
           Para pesquisadores e profissionais de laboratório que estão cansados de repetir
