@@ -150,7 +150,7 @@ export default function OfertaPage() {
                   <div className="mt-5 rounded-2xl border border-neutral-400 bg-gradient-to-r from-[#0B2D5C]/5 to-blue-50 p-4">
                     <p className="text-2xl text-center leading-relaxed text-neutral-700">
                       <span className="font-semibold text-neutral-900">Condição atual: </span>
-                        em vez de pagar <span className="line-through">R$ 147,00</span>, você garante acesso hoje por:
+                        em vez de pagar <span className="line-through">R$ 97,00</span>, você garante acesso hoje por:
                     </p>
                     <button
                           onClick={handleCheckout}
@@ -375,7 +375,7 @@ export default function OfertaPage() {
                     className="group w-full cursor-pointer rounded-2xl bg-[#0B2D5C] px-5 py-4 text-white shadow-lg transition hover:bg-[#09264D] sm:px-6"
                   >
                     <span className="block text-xl line-through text-white-100">
-                      De R$ 147,00
+                      De R$ 97,00
                     </span>
       
                     <span className="mt-1 inline-flex items-center justify-center gap-2 text-3xl font-semibold sm:text-lg">
