@@ -269,8 +269,8 @@ export default function OfertaPage() {
           </div>
 
           <p className="mt-2 text-left text-lg text-center leading-relaxed text-neutral-700">
-            “O método é bem organizado e não promete nada fora da realidade. Me ajudou a entender
-            o que é SOP e DoE, estudo experimental e aplicação na prática, nunca vi no mercado antes com 16 anos de experiência.”
+            “O método é bem organizado e não promete nada fora da realidade. Me ajudou a realizar
+             aplicações rápidas na prática, nunca vi no mercado antes com 16 anos de experiência.”
           </p>
         </div>
       </div>
