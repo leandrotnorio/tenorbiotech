@@ -37,19 +37,19 @@ export default function OfertaPage() {
                 <div className=" mt-12 flex items-center justify-center text-start gap-2 mb-6">
                         <CircleCheck className="h-12 w-12 text-green-400" strokeWidth={2.2} />
                         <p className="text-xl font-bold">
-                        Mais clareza na complexidade da produção biotecnológica
+                         Método para controlar variáveis críticas em experimentos
                         </p>
                       </div>
                 <div className="flex  items-center justify-center text-start gap-2 mb-6">
                   <CircleCheck className="h-12 w-12 text-green-400" strokeWidth={2.2} />
                     <p className="text-xl font-bold">
-                    Mais domínio sobre os desafios da resistência a antibióticos
+                      Como encontrar a evidência científica certa em minutos
                     </p>
                 </div>
                 <div className="flex items-center justify-center text-start gap-2 mb-6">
                   <CircleCheck className="h-12 w-12 text-green-400" strokeWidth={2.2} />
                     <p className="text-xl font-bold">
-                    Mais visão estratégica sobre terapias gênicas e celulares
+                    Como reduzir drasticamente retrabalho e perda de tempo em bancada
                     </p>
                 </div>
                 <div className="relative w-full h-[340px] md:h-[600px] rounded-3xl overflow-hidden shadow-xl">
@@ -103,7 +103,7 @@ export default function OfertaPage() {
           Ao adquirir este Mapa
         </p>
         <p className="mt-1 text-lg leading-relaxed text-neutral-700">
-          Você tem acesso ao Mapa com conteúdo estruturado, objetivo baseado em aplicações na prática e com resultados reais com acesso vitalício.
+          Acesso a um método prático para controlar variáveis experimentais, encontrar evidência científica rapidamente, reduzir retrabalho em laboratório e transformar experimentos instáveis em dados confiáveis.
         </p>
       </div>
     </div>
@@ -120,10 +120,7 @@ export default function OfertaPage() {
           Porque adquirir este Mapa
         </p>
         <p className="mt-1 text-lg leading-relaxed text-neutral-700">
-          Se você vive repetindo experimento para “dar o mesmo resultado”, este Mapa vai te entregar um sistema prático
-          para blindar seus dados: SOP profissional, Go/No-Go, validação inter-dia inter-operador inter-lote, DoE
-          e governança de dados para você parar de depender de “dia bom” e começar a gerar evidência reprodutível,
-          rastreável e defensável.
+          Se seus resultados mudam toda vez e sua pesquisa vive em tentativa e erro, este método mostra como recuperar controle experimental e produzir dados confiáveis de verdade.
         </p>
       </div>
     </div>
@@ -140,9 +137,9 @@ export default function OfertaPage() {
           Para quem é este guia
         </p>
         <p className="mt-1 text-lg leading-relaxed text-neutral-700">
-          Este Mapa é para biotecnólogos e pesquisadores que estão cansados de perder semanas (ou meses)
-          porque o experimento não repete, o controle falha, o lote muda, o operador executa diferente
-          e a análise “muda tudo”.
+          Para pesquisadores e profissionais de laboratório que estão cansados de repetir
+          experimento até “dar certo”, perder semanas em literatura inútil e querem finalmente
+          produzir dados confiáveis com controle real do processo científico
         </p>
       </div>
     </div>
@@ -272,7 +269,7 @@ export default function OfertaPage() {
           </div>
 
           <p className="mt-2 text-left text-lg text-center leading-relaxed text-neutral-700">
-            “O material é bem organizado e não promete nada fora da realidade. Me ajudou a entender
+            “O método é bem organizado e não promete nada fora da realidade. Me ajudou a entender
             o que é SOP e DoE, estudo experimental e aplicação na prática, nunca vi no mercado antes com 16 anos de experiência.”
           </p>
         </div>
@@ -342,7 +339,7 @@ export default function OfertaPage() {
           </div>
 
           <p className="mt-2 text-left text-lg leading-relaxed text-neutral-700">
-            “Eu precisava de um mapa que organizasse o assunto de forma clara, reduzi muito os custos com está aquisição. Achei a
+            “Eu precisava de um método que organizasse o assunto de forma clara, reduzi muito os custos com está aquisição. Achei a
             linguagem acessível e a estrutura muito bem feita.”
           </p>
         </div>
@@ -366,8 +363,7 @@ export default function OfertaPage() {
                 </h3>
       
                 <p className="mt-6 text-lg leading-relaxed text-neutral-700">
-                  Acesso imediato ao conteúdo educacional por apenas <strong>R$ 47,00</strong>.
-                  <br/>Adquira o Mapa e tenha em mãos um conteúdo criado para quem busca clareza,
+                  <br/>Adquira o Método e tenha em mãos um conteúdo criado para quem busca clareza,
                    organização e entendimento real sobre como garantir a reprodutibilidade, qualidade e resultado na bancada e na análise.
                 </p>
     
